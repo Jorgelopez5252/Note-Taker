@@ -13,6 +13,7 @@ app.use(express.static("public"));
 app.use("/", htmlRoutes);
 app.use("/api", apiRoutes);
 
+
 // app.get("/notes", function(req, res) {
 //   res.sendFile(path.join(__dirname, "/public/notes.html"));
 // });

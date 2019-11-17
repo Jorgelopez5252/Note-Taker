@@ -4,6 +4,7 @@ const util = require("util");
 const readFileAsyn = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 
+
 class Notes{
     constructor(){
         this.id= 0;
@@ -18,6 +19,7 @@ class Notes{
 
     }
     getNotes(){
+        console.log("inside getNotes function db")
         return this.read().then(notes => {
             var parderdNotes = JSON.parse(notes);
             console.log("pasrsed Notes: " +parderdNotes)
