@@ -8,9 +8,21 @@ router.get("/notes", function(req, res) {
     .then(notes => res.json(notes))
     .catch(err => res.status(500).json(err));
 });
-router.get("/", function(req,res){
-    console.log("inside / api route")
-    res.json("/api route is called")
+
+//post route
+
+router.post("/notes", function(req,res){
+  store
+  .addNotes()
+  .then(note => res.json(note))
+  .catch(err => res.status(500),json(err));
+});
+
+
+//delete route
+router.delete("/notes/:id", function(req, res){
+  store
 })
+
 
 module.exports = router;

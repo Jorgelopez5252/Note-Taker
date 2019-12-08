@@ -32,12 +32,6 @@ var deleteNote = function(id) {
   });
 };
 
-// //express route
-// app.delete("/api/notes/:id", function(req,res){
-//   const id=req.params.id;
-
-// });
-
 // If there is an activeNote, display it, otherwise render empty inputs
 var renderActiveNote = function() {
   $saveNoteBtn.hide();

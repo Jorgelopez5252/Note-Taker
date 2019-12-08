@@ -22,7 +22,7 @@ class Notes{
         console.log("inside getNotes function db")
         return this.read().then(notes => {
             var parderdNotes = JSON.parse(notes);
-            console.log("pasrsed Notes: " +parderdNotes)
+            console.log("parsed Notes: " +parderdNotes)
             return parderdNotes;
         })
 
