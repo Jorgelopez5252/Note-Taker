@@ -13,15 +13,19 @@ router.get("/notes", function(req, res) {
 
 router.post("/notes", function(req,res){
   store
-  .addNotes()
+  .addNotes(req.body)
   .then(note => res.json(note))
-  .catch(err => res.status(500),json(err));
+  .catch(err => res.status(500).json(err));
 });
 
 
 //delete route
 router.delete("/notes/:id", function(req, res){
+  console.log(req.params.id)
   store
+  .deletenote(req.params.id)
+  .then(() => res.json({ok:true}))
+  .catch(err => res.status(500).json(err));
 })
 
 
