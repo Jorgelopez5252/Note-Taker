@@ -8,7 +8,7 @@
 - [Link](#Link)
 ​
 ### Description
-This day planner allows users to save and track thier day to day task and with color coded showing what the current task is based on the current time!
+This is Note taker is powered with Jquery and can not only accept new notes but it can save them using both api and ajax calls to store the details!
 
 ​
 ### Technologies-Libraries
@@ -20,17 +20,21 @@ This day planner allows users to save and track thier day to day task and with c
 
 Landing Page
 
-![Image](assets/images/phone_landing.jpg)    
+![Image](public/assets/images/Capture1.PNG)    
 ​
 
 Adding Note page
 
-![Image](assets/images/c2c-landing.jpg)
+![Image](public/assets/images/Capture2.PNG)
 ​
 
 Adding 2nd Note page
 
-![Image](assets/images/c2c-results.jpg)
+![Image](public/assets/images/Capture3.PNG)
+
+Adding 3nd Note page
+
+![Image](public/assets/images/Capture4.PNG)
 ​
 ### Link
 Check it out!
