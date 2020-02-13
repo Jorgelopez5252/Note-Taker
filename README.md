@@ -8,7 +8,7 @@
 - [Link](#Link)
 ​
 ### Description
-This is Note taker is powered with Jquery and can not only accept new notes but it can save them using both api and ajax calls to store the details!
+This Note taker is powered with Jquery and can not only accept new notes but it can save them using both api and ajax calls to store and save notes written by the user. You may also delete your saved notes as well once the certain task is completed or you no longer need the note.
 
 ​
 ### Technologies-Libraries
