@@ -37,5 +37,5 @@ Adding 3nd Note page
 ![Image](public/assets/images/Capture4.PNG)
 ​
 ### Link
-Check it out!
+Check it out to view it deployed!
  https://morning-fortress-81693.herokuapp.com/
